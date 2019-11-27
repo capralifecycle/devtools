@@ -11,6 +11,25 @@
     <ignoreVersion type="regex">(?i).*RC(?:-?\d+)?</ignoreVersion>
     <ignoreVersion type="regex">(?i).*CR(?:-?\d+)?</ignoreVersion>
     <ignoreVersion type="regex">(?i).*M(?:-?\d+)?</ignoreVersion>
+
+    <!-- To be reviewed -->
+    <ignoreVersion type="regex">.*.alpha.*</ignoreVersion>
+    <ignoreVersion type="regex">.*.beta</ignoreVersion>
+    <ignoreVersion type="regex">.*-b01</ignoreVersion>
+    <ignoreVersion type="regex">.*.pr[0-9]</ignoreVersion>
+    <ignoreVersion type="regex">.*-eap-.*</ignoreVersion>
+    <ignoreVersion type="regex">.*-RC[0-9].*</ignoreVersion>
+    <ignoreVersion type="regex">.*.RC[0-9].*</ignoreVersion>
+    <ignoreVersion type="regex">.*-rc</ignoreVersion>
+    <ignoreVersion type="regex">.*.M[0-9].*</ignoreVersion>
+    <ignoreVersion type="regex">.*-SNAP[0-9]+</ignoreVersion>
+    <ignoreVersion type="regex">.*-rc[0-9]+</ignoreVersion>
+    <ignoreVersion type="regex">.*-rc-[0-9]+</ignoreVersion>
+    <ignoreVersion type="regex">.*-beta[0-9]+</ignoreVersion>
+    <ignoreVersion type="regex">.*-beta-[0-9]+</ignoreVersion>
+    <ignoreVersion type="regex">.*.kotlin12+</ignoreVersion>     
+    <ignoreVersion type="regex">.*-native-mt-[0-9]+</ignoreVersion>    
+    
     <!-- Ignore .prX from jackson etc. -->
     <ignoreVersion type="regex">(?i).*pr\d+</ignoreVersion>
     <!-- Ignore org.postgresql:postgresql:42.2.5.jre7 and alike -->
