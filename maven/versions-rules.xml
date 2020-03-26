@@ -3,21 +3,21 @@
 <ruleset xmlns="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" comparisonMethod="maven" xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 http://mojo.codehaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd">
   <ignoreVersions>
     <!-- Ignore Alpha's, Beta's, release candidates, milestones and snapshots -->
-    <ignoreVersion type="regex">(?i).*alpha(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*a(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*beta(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*b(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*eap(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*rc(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*cr(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*m(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*pr(-?\d+)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*snap(-?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*alpha(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*a(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*beta(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*b(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*eap(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*rc(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*cr(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*m(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*pr(-?\d+)?(.*)</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*snap(-?\d+)?(.*)</ignoreVersion>
 
     <!-- Ignore JRE-legacy-specific releases -->
-    <ignoreVersion type="regex">(?i).*jre(-?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*jre(-?\d+)?(.*)</ignoreVersion>
 
      <!-- Ignore Kotlin-legacy-specific releases -->
-    <ignoreVersion type="regex">(?i).*kotlin(-?\d+)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*kotlin(-?\d+)?(.*)</ignoreVersion>
   </ignoreVersions>
 </ruleset>
