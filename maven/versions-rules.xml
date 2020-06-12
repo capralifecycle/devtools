@@ -3,9 +3,9 @@
 <ruleset xmlns="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" comparisonMethod="maven" xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 http://mojo.codehaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd">
   <ignoreVersions>
     <!-- Ignore Alpha's, Beta's, release candidates, milestones and snapshots -->
-    <ignoreVersion type="regex">(?i).*alpha([-.]?\d+.*)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*alpha.*</ignoreVersion>
     <ignoreVersion type="regex">(?i).*a([-.]?\d+.*)?</ignoreVersion>
-    <ignoreVersion type="regex">(?i).*beta([-.]?\d+.*)?</ignoreVersion>
+    <ignoreVersion type="regex">(?i).*beta.*</ignoreVersion>
     <ignoreVersion type="regex">(?i).*b([-.]?\d+.*)?</ignoreVersion>
     <ignoreVersion type="regex">(?i).*eap([-.]?\d+.*)?</ignoreVersion>
     <ignoreVersion type="regex">(?i).*rc([-.]?\d+.*)?</ignoreVersion>
