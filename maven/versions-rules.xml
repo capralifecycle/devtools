@@ -19,5 +19,8 @@
 
      <!-- Ignore Kotlin-legacy-specific releases -->
     <ignoreVersion type="regex">(?i).*kotlin([-.]?\d+.*)?</ignoreVersion>
+
+    <!-- Ignore old Apache Commons Codec release -->
+    <ignoreVersion type="regex">20041127.091804</ignoreVersion>
   </ignoreVersions>
 </ruleset>
